@@ -21,7 +21,7 @@ public class GameController : MonoBehaviour {
 		a.PutObstacle(obstaclePos);
 
 		view.ShowMap();
-		view.ShowSearchPath();
+		// view.ShowSearchPath();
 	}
 
 	void Update () {

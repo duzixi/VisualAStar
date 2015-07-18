@@ -15,7 +15,7 @@ public class GameView : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		row = GetComponent<GameController>().row;
 		col = GetComponent<GameController>().col;
 	}
